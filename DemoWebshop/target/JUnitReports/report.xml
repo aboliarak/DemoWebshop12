@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="5" time="38.47">
+    <testcase classname="Demowebshop search functionality" name="To verify if result displayed is as per the entered data" time="15.398">
+        <system-out><![CDATA[Given Browser is open.......................................................passed
+And Home page is visible....................................................passed
+When User enters the data in search text bar................................passed
+And Click on search button..................................................passed
+Then Result should displayed................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Demowebshop search functionality" name="To verify if system is suggesting a keyword relevant to entered data" time="7.558">
+        <system-out><![CDATA[Given Relevant data.........................................................passed
+When As user enters the data in search text bar.............................passed
+Then System should suggest some keywords relevant to entered data...........passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Demowebshop search functionality" name="To verify if user is able to enter the data with 2 characters" time="4.929">
+        <system-out><![CDATA[Given Search text box is visible............................................passed
+When As User enters data with 2 letters.....................................passed
+And Click enter.............................................................passed
+Then System will display a message as no search result found................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Demowebshop search functionality" name="To verify if search advanced is searching the result" time="7.227">
+        <system-out><![CDATA[Given Search box is enabled.................................................passed
+When User enters a data in search bar.......................................passed
+And Click on search.........................................................passed
+Then Search advanced must be visible........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Demowebshop search functionality" name="To verify if user is able to search the products by its manufacturer or company's name" time="3.159">
+        <system-out><![CDATA[Given Search button is visible..............................................passed
+When User is enter the data from company's name.............................passed
+And Click on search buttton.................................................passed
+Then System should display result...........................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
